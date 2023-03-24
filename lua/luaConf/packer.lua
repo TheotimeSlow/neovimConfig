@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
     end,
   }
   use 'nvim-treesitter/playground'
-  
+
   use {
     'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
@@ -52,6 +52,8 @@ return require('packer').startup(function(use)
   use 'theprimeagen/vim-be-good'
   use 'mbbill/undotree'
   use 'tpope/vim-fugitive'
-  use 'airblade/vim-gitgutter'
+  use 'lewis6991/gitsigns.nvim'
+  use 'lukas-reineke/indent-blankline.nvim'
+  use 'akinsho/toggleterm.nvim'
 
 end)
