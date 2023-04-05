@@ -15,9 +15,14 @@ vim.opt.backup = false
 vim.opt.undodir = os.getenv("HOME") .. "/.config/nvim/undodir"
 vim.opt.undofile = true
 
-vim.opt.hlsearch = false
+vim.opt.ignorecase = true
+vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
+
+-- which key
+vim.o.timeout = true
+vim.o.timeoutlen = 500
