@@ -74,6 +74,6 @@ return require('packer').startup(function(use)
   use 'karb94/neoscroll.nvim'
   use 'yaocccc/nvim-hlchunk'
   use 'gaborvecsei/memento.nvim'
-  use 'code-biscuits/nvim-biscuits'
+  use 'windwp/nvim-ts-autotag'
 
 end)

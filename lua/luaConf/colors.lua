@@ -10,8 +10,11 @@ function Paint(color)
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
   vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
+  vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#ff8400", bold = true})
+  vim.api.nvim_set_hl(0, "LineNr", { fg = "#ff8400", bold = true})
+  vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#ff8400", bold = true})
 
 end
 
-Paint("zephyr")
+Paint("catppuccin")
 

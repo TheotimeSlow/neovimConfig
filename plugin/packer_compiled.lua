@@ -179,11 +179,6 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
     url = "https://github.com/karb94/neoscroll.nvim"
   },
-  ["nvim-biscuits"] = {
-    loaded = true,
-    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-biscuits",
-    url = "https://github.com/code-biscuits/nvim-biscuits"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -228,6 +223,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["nvim-ts-autotag"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-ts-autotag",
+    url = "https://github.com/windwp/nvim-ts-autotag"
   },
   ["nvim-web-devicons"] = {
     loaded = true,

@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>dv", vim.cmd.Ex, {desc = "Ouvre netrw"})
 vim.keymap.set("n", "<leader>vv", vim.cmd.Lexplore, {desc = "Ouvre netrw dans un buffer"})
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 vim.keymap.set("n", "<leader>mp", ":cd /home/tsl/gerrit/mesParcelles/apps/<CR>", {desc = "Cd sur mesParcelles"})
 vim.keymap.set("n", "<leader>mo", ":cd /home/tsl/gerrit/mesParcelles/apps/mobile/mesparcellestouch/<CR>", {desc = "Cd sur mesparcellestouch"})
