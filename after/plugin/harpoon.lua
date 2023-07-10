@@ -15,5 +15,7 @@ vim.keymap.set("n", "<M-é>", function() ui.nav_file(2) end)
 vim.keymap.set("n", "<M-\">", function() ui.nav_file(3) end)
 vim.keymap.set("n", "<M-\'>", function() ui.nav_file(4) end)
 
-vim.keymap.set("n", "<M-n>", ui.nav_next)
-vim.keymap.set("n", "<M-p>", ui.nav_prev)
+
+--vim.keymap.set("n", "<M-n>", ui.nav_next)
+--vim.keymap.set("n", "<M-p>", ui.nav_prev)
+

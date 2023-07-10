@@ -16,5 +16,5 @@ function Paint(color)
 
 end
 
-Paint("catppuccin")
+Paint("fairyfloss")
 
