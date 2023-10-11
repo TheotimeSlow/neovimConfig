@@ -6,3 +6,14 @@ vim.keymap.set('n', '<leader>fw', function()
 end)
 vim.keymap.set('n', '<leader>vh', builtin.help_tags, {})
 vim.keymap.set('n', '<leader>fr', builtin.grep_string, {})
+
+require('telescope').setup{
+  defaults = {
+    path_display = {"smart"},
+  },
+  find_files = {
+    pickers = {
+      hidden = true,
+    }
+  }
+}

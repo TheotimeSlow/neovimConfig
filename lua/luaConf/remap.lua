@@ -25,9 +25,10 @@ vim.keymap.set("n", "<leader>y", "\"+y", {desc = "Copie dans le presse papier"})
 vim.keymap.set("v", "<leader>y", "\"+y", {desc = "Copie dans le presse papier"})
 vim.keymap.set("n", "<leader>Y", "\"+Y", {desc = "Copie jusque la fin de la ligne dans le presse papier"})
 
-vim.keymap.set("n", "<leader>d", "\"_d", {desc = "Supprime dans le void registry"})
-vim.keymap.set("v", "<leader>d", "\"_d", {desc = "Supprime dans le void registry"})
+-- vim.keymap.set("n", "<leader>d", "\"_d", {desc = "Supprime dans le void registry"})
+-- vim.keymap.set("v", "<leader>d", "\"_d", {desc = "Supprime dans le void registry"})
 
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
 vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], {desc = "Remplace le mot sous le curseur dans tout le fichier"})
+vim.keymap.set("n", "<leader>ra", [[:.,$s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], {desc = "Remplace le mot sous le curseur dans la suite du fichier"})

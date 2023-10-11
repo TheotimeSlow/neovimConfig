@@ -15,6 +15,3 @@ function Paint(color)
   vim.api.nvim_set_hl(0, "LineNrAbove", { fg = "#ff8400", bold = true})
 
 end
-
-Paint("fairyfloss")
-

@@ -23,7 +23,3 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-
--- which key
-vim.o.timeout = true
-vim.o.timeoutlen = 500
