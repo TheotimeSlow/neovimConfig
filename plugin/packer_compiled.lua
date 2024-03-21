@@ -94,6 +94,16 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/catppuccin",
     url = "https://github.com/catppuccin/nvim"
   },
+  ["cd-project.nvim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/cd-project.nvim",
+    url = "https://github.com/LintaoAmons/cd-project.nvim"
+  },
+  ["cellular-automaton.nvim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
+    url = "https://github.com/Eandrju/cellular-automaton.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -119,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["codeium.vim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/codeium.vim",
+    url = "https://github.com/Exafunction/codeium.vim"
+  },
   everforest = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/everforest",
@@ -134,10 +149,20 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["hardtime.nvim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/hardtime.nvim",
+    url = "https://github.com/m4xshen/hardtime.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["hop.nvim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/hop.nvim",
+    url = "https://github.com/hadronized/hop.nvim"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,
@@ -174,6 +199,16 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
     url = "https://github.com/karb94/neoscroll.nvim"
   },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  ["null-ls.nvim"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
+    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -198,6 +233,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-notify"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/nvim-notify",
+    url = "https://github.com/rcarriga/nvim-notify"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -264,11 +304,6 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
-  ["twilight.nvim"] = {
-    loaded = true,
-    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/twilight.nvim",
-    url = "https://github.com/folke/twilight.nvim"
-  },
   undotree = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/undotree",
@@ -279,15 +314,15 @@ _G.packer_plugins = {
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/veil.nvim",
     url = "https://github.com/willothy/veil.nvim"
   },
-  ["vim-flog"] = {
-    loaded = true,
-    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/vim-flog",
-    url = "https://github.com/rbong/vim-flog"
-  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/tsl/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/home/tsl/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   },
   ["vim-surround"] = {
     loaded = true,

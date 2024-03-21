@@ -49,9 +49,10 @@ return require('packer').startup(function(use)
   use {'catppuccin/nvim' , as = "catppuccin"}
 
   -- Plugins
-  use {'nvim-telescope/telescope.nvim', tag = '0.1.1', requires = { {'nvim-lua/plenary.nvim'} }}
+  use {'nvim-telescope/telescope.nvim', tag = '0.1.5', requires = { {'nvim-lua/plenary.nvim'} }}
   use {'nvim-lualine/lualine.nvim', requires = {'kyazdani42/nvim-web-devicons', opt = true}}
   use {'willothy/veil.nvim', requires = {'nvim-telescope/telescope-file-browser.nvim'}}
+  use {'m4xshen/hardtime.nvim', requires = {'MunifTanjim/nui.nvim'}}
   use 'kyazdani42/nvim-web-devicons'
   use 'theprimeagen/harpoon'
   use 'mbbill/undotree'
@@ -60,7 +61,6 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim'
   use 'kevinhwang91/nvim-hlslens'
   use 'brenoprata10/nvim-highlight-colors'
-  use 'rbong/vim-flog'
   use 'levouh/tint.nvim'
   use 'karb94/neoscroll.nvim'
   use 'mfussenegger/nvim-dap'
@@ -68,7 +68,13 @@ return require('packer').startup(function(use)
   use 'stevearc/aerial.nvim'
   use 'stevearc/oil.nvim'
   use 'lewis6991/satellite.nvim'
-  use 'folke/twilight.nvim'
   use 'j-morano/buffer_manager.nvim'
+  use 'jose-elias-alvarez/null-ls.nvim'
+  use 'Exafunction/codeium.vim'
+  use 'rcarriga/nvim-notify'
+  use 'RRethy/vim-illuminate'
+  use 'Eandrju/cellular-automaton.nvim'
+  use 'hadronized/hop.nvim'
+  use 'LintaoAmons/cd-project.nvim'
 
 end)

@@ -1,8 +1,5 @@
 function Paint(color)
-	color = color or "everforest"
   vim.opt.background = "dark"
-  vim.g.everforest_enable_italic = 1
-  vim.g.everforest_background = "soft"
 
 
 	vim.cmd.colorscheme(color)
